@@ -1,0 +1,13 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS sources(id TEXT PRIMARY KEY,title TEXT NOT NULL,url TEXT NOT NULL,publisher TEXT NOT NULL,kind TEXT NOT NULL,summary TEXT NOT NULL,verified_on TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS products(id TEXT PRIMARY KEY,brand TEXT NOT NULL,family TEXT NOT NULL,variant TEXT NOT NULL,segment TEXT NOT NULL,screen_in REAL CHECK(screen_in>0),max_ram_gb INTEGER CHECK(max_ram_gb>0),ram_upgradeable INTEGER CHECK(ram_upgradeable IN(0,1)),weight_kg REAL CHECK(weight_kg>0),max_storage_gb INTEGER CHECK(max_storage_gb>0),ethernet INTEGER CHECK(ethernet IN(0,1)),battery_wh REAL CHECK(battery_wh>0),notes TEXT NOT NULL,verified_on TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS product_sources(product_id TEXT REFERENCES products(id),source_id TEXT REFERENCES sources(id),PRIMARY KEY(product_id,source_id));
+CREATE TABLE IF NOT EXISTS prices(id INTEGER PRIMARY KEY,product_id TEXT NOT NULL REFERENCES products(id),amount REAL NOT NULL CHECK(amount>0),currency TEXT NOT NULL,market TEXT NOT NULL,kind TEXT NOT NULL CHECK(kind IN('launch','retail','quote')),observed_on TEXT NOT NULL,configuration TEXT NOT NULL,tax_basis TEXT NOT NULL,source_id TEXT NOT NULL REFERENCES sources(id),UNIQUE(product_id,source_id,observed_on,configuration,kind,amount));
+CREATE TABLE IF NOT EXISTS launches(id INTEGER PRIMARY KEY,product_id TEXT REFERENCES products(id),announced_on TEXT NOT NULL,title TEXT NOT NULL,summary TEXT NOT NULL,source_id TEXT REFERENCES sources(id),UNIQUE(product_id,announced_on,title));
+CREATE TABLE IF NOT EXISTS source_checks(id INTEGER PRIMARY KEY,source_id TEXT REFERENCES sources(id),checked_at TEXT NOT NULL,status TEXT NOT NULL,content_hash TEXT,detail TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS changes(id INTEGER PRIMARY KEY,product_id TEXT REFERENCES products(id),changed_at TEXT NOT NULL,field TEXT NOT NULL,old_value TEXT,new_value TEXT,source_id TEXT REFERENCES sources(id));
+CREATE VIRTUAL TABLE IF NOT EXISTS evidence_fts USING fts5(source_id UNINDEXED,title,summary,products,tokenize='unicode61');
+CREATE INDEX IF NOT EXISTS idx_source_checks_source_time ON source_checks(source_id,checked_at DESC);
+CREATE INDEX IF NOT EXISTS idx_prices_product_date ON prices(product_id,observed_on DESC);
+CREATE VIEW IF NOT EXISTS v_portfolio AS SELECT p.*,round(100.0*((screen_in IS NOT NULL)+(max_ram_gb IS NOT NULL)+(ram_upgradeable IS NOT NULL)+(weight_kg IS NOT NULL)+(max_storage_gb IS NOT NULL)+(ethernet IS NOT NULL)+(battery_wh IS NOT NULL))/7,0) AS evidence_coverage_pct FROM products p;
+CREATE VIEW IF NOT EXISTS v_brand_coverage AS SELECT brand,count(DISTINCT family) families,count(*) platform_variants,round(avg(evidence_coverage_pct),0) evidence_coverage_pct FROM v_portfolio GROUP BY brand;

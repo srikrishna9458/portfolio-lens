@@ -1,0 +1,26 @@
+# Generated local services, models, keys and logs
+runtime/
+*.gguf
+*.key
+*.log
+*.pid
+.env
+.env.*
+
+# Local Python environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Working database is recreated from the committed research seed
+data/*.sqlite
+data/*.sqlite-*
+data/*.db
+
+# Power BI local caches and machine state
+powerbi/**/.pbi/
+powerbi/**/.platform
+
+# Download/build archives
+*.zip
