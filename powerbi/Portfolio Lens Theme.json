@@ -1,0 +1,13 @@
+{
+  "name": "Portfolio Lens",
+  "dataColors": [
+    "#176754",
+    "#3D83A0",
+    "#C19B45",
+    "#765C9E",
+    "#D87D56"
+  ],
+  "background": "#F5F6F8",
+  "foreground": "#172B3A",
+  "tableAccent": "#176754"
+}

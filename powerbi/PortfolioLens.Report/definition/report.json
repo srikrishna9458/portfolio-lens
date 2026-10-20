@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {},
+  "settings": {
+    "useEnhancedTooltips": false
+  },
+  "annotations": [
+    {
+      "name": "Research scope",
+      "value": "Curated sample; starting weights and maximum RAM may not coexist. Historical prices are not current offers."
+    }
+  ]
+}

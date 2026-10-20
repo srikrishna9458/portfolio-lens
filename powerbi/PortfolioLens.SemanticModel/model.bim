@@ -1,0 +1,1669 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Products\", \"Sources\", \"Prices\", \"Launches\", \"Changes\", \"SourceChecks\", \"Brands\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "changes.changed_at": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Changes",
+                    "ConceptualProperty": "changed_at"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "changed at": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "changes.field": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Changes",
+                    "ConceptualProperty": "field"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "field": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "changes.new_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Changes",
+                    "ConceptualProperty": "new_value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "new value": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "changes.old_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Changes",
+                    "ConceptualProperty": "old_value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "old value": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "changes.product_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Changes",
+                    "ConceptualProperty": "product_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product id": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "changes.source_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Changes",
+                    "ConceptualProperty": "source_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "source id": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "launches.announced_on": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Launches",
+                    "ConceptualProperty": "announced_on"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "announced on": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "launches.source_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Launches",
+                    "ConceptualProperty": "source_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "source id": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "launches.summary": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Launches",
+                    "ConceptualProperty": "summary"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "summary": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "launches.title": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Launches",
+                    "ConceptualProperty": "title"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "title": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.amount": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "amount"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "amount": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.configuration": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "configuration"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "configuration": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.currency": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "currency"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "currency": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.kind": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "kind"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "kind": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.market": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "market"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "market": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.observed_on": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "observed_on"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "observed on": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.product_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "product_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product id": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.source_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "source_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "source id": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "prices.tax_basis": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Prices",
+                    "ConceptualProperty": "tax_basis"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tax basis": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.brand": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "brand"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "brand": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.brands_tracked": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "Brands tracked"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Brands tracked": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.evidence_coverage_": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "Evidence coverage %"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Evidence coverage %": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.evidence_coverage_pct": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "evidence_coverage_pct"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "evidence coverage pct": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.family": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "family"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "family": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.fleetfit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "FleetFit"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "FleetFit": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.max_ram_gb": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "max_ram_gb"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "max ram gb": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.notes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "notes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "notes": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.platform": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "Platform"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Platform": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.platform_variants": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "Platform variants"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Platform variants": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.product_families": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "Product families"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Product families": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.ram_upgradeable": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "ram_upgradeable"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ram upgradeable": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.starting_weight_kg": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "Starting weight kg"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Starting weight kg": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.travelfit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "TravelFit"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "TravelFit": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.variant": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "variant"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "variant": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.weight_kg": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "weight_kg"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "weight kg": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sourcechecks.checked_at": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "SourceChecks",
+                    "ConceptualProperty": "checked_at"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "checked at": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sourcechecks.detail": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "SourceChecks",
+                    "ConceptualProperty": "detail"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "detail": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sourcechecks.source_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "SourceChecks",
+                    "ConceptualProperty": "source_id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "source id": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sourcechecks.status": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "SourceChecks",
+                    "ConceptualProperty": "status"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sources.id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sources",
+                    "ConceptualProperty": "id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sources.publisher": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sources",
+                    "ConceptualProperty": "publisher"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "publisher": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sources.summary": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sources",
+                    "ConceptualProperty": "summary"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "summary": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sources.title": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sources",
+                    "ConceptualProperty": "title"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "title": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sources.url": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sources",
+                    "ConceptualProperty": "url"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "url": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sources.verified_on": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sources",
+                    "ConceptualProperty": "verified_on"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "verified on": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "DataFolder",
+        "expression": "\"RUN_LAUNCHER_TO_SET_EXPORT_FOLDER/\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "e33e9f28-2495-43be-8dd8-4c32f6bba70f"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "063c3c1b-4272-41f2-a276-6120a4e9eb4e",
+        "fromColumn": "product_id",
+        "fromTable": "Prices",
+        "toColumn": "id",
+        "toTable": "Products"
+      },
+      {
+        "name": "6cd32cb2-d6ff-4828-a0b1-79328cc6d98a",
+        "fromColumn": "source_id",
+        "fromTable": "Prices",
+        "toColumn": "id",
+        "toTable": "Sources"
+      },
+      {
+        "name": "4a23c3d2-b154-482b-896b-066547c8cdc7",
+        "fromColumn": "product_id",
+        "fromTable": "Launches",
+        "toColumn": "id",
+        "toTable": "Products"
+      },
+      {
+        "name": "2c8fa257-41b0-421d-9df2-e77676664da3",
+        "fromColumn": "source_id",
+        "fromTable": "Launches",
+        "toColumn": "id",
+        "toTable": "Sources"
+      },
+      {
+        "name": "a4805838-4bca-45fe-8086-914efc6c1b57",
+        "fromColumn": "product_id",
+        "fromTable": "Changes",
+        "toColumn": "id",
+        "toTable": "Products"
+      },
+      {
+        "name": "aee66e1a-54e5-46ec-b584-1a5d37c6c1e1",
+        "fromColumn": "source_id",
+        "fromTable": "Changes",
+        "toColumn": "id",
+        "toTable": "Sources"
+      },
+      {
+        "name": "08ae4a21-f8ef-490b-b580-dca2f9f5687f",
+        "fromColumn": "source_id",
+        "fromTable": "SourceChecks",
+        "toColumn": "id",
+        "toTable": "Sources"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Products",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "string",
+            "lineageTag": "796646db-289d-4517-9821-fc8aac0e576a",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "brand",
+            "dataType": "string",
+            "lineageTag": "063b432a-fa33-42fc-96dc-8cd2c303f351",
+            "sourceColumn": "brand",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "family",
+            "dataType": "string",
+            "lineageTag": "96c52473-945d-4aaa-bebc-95ec9939f048",
+            "sourceColumn": "family",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "variant",
+            "dataType": "string",
+            "lineageTag": "c4ea6d8c-7d56-4ae6-8d2d-2cc9163ff3f6",
+            "sourceColumn": "variant",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "segment",
+            "dataType": "string",
+            "lineageTag": "ece3743a-4ee3-47ae-8b94-cc4197c72d28",
+            "sourceColumn": "segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "screen_in",
+            "dataType": "double",
+            "lineageTag": "50241674-c3b8-4ec9-84d9-223955ecd1aa",
+            "sourceColumn": "screen_in",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "max_ram_gb",
+            "dataType": "double",
+            "lineageTag": "8e701ae7-2b6d-4b59-b4a4-8b1acdfb1c87",
+            "sourceColumn": "max_ram_gb",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ram_upgradeable",
+            "dataType": "double",
+            "lineageTag": "486283a0-8f52-4e64-a908-298bd0f76eff",
+            "sourceColumn": "ram_upgradeable",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "weight_kg",
+            "dataType": "double",
+            "formatString": "0.000",
+            "lineageTag": "bc9bbce9-454c-4e1f-a99c-34dde9a78878",
+            "sourceColumn": "weight_kg",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "max_storage_gb",
+            "dataType": "double",
+            "lineageTag": "0ea985fe-c9f2-4d59-ba5f-f08d5a470292",
+            "sourceColumn": "max_storage_gb",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ethernet",
+            "dataType": "double",
+            "lineageTag": "ee16beb7-3a1f-4764-9e6c-2b6f223a5d95",
+            "sourceColumn": "ethernet",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "battery_wh",
+            "dataType": "double",
+            "lineageTag": "c1fe66f0-884a-488d-8e00-4c5008980434",
+            "sourceColumn": "battery_wh",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "notes",
+            "dataType": "string",
+            "lineageTag": "5fb49d4d-f6ab-4d30-8ad7-35d7778176b1",
+            "sourceColumn": "notes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "verified_on",
+            "dataType": "string",
+            "lineageTag": "47c889df-05e6-4cb0-ac60-38b6ae33efd2",
+            "sourceColumn": "verified_on",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "evidence_coverage_pct",
+            "dataType": "double",
+            "lineageTag": "255b6655-09ea-4bd6-91a0-ee4af81b09cb",
+            "sourceColumn": "evidence_coverage_pct",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Platform",
+            "dataType": "string",
+            "expression": "Products[brand] & \" \" & Products[family] & \" / \" & Products[variant]",
+            "lineageTag": "75825ed7-48df-4a69-aebf-ba3625bdc7f2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "FleetFit",
+            "dataType": "string",
+            "expression": "SWITCH(TRUE(), NOT ISBLANK(Products[max_ram_gb]) && Products[max_ram_gb] < 64, \"No match\", NOT ISBLANK(Products[weight_kg]) && Products[weight_kg] > 1.5, \"No match\", NOT ISBLANK(Products[ram_upgradeable]) && Products[ram_upgradeable] = 0, \"No match\", ISBLANK(Products[max_ram_gb]) || ISBLANK(Products[weight_kg]) || ISBLANK(Products[ram_upgradeable]), \"Unresolved\", \"Candidate - verify SKU\")",
+            "lineageTag": "710a6473-7ffa-4fca-ac56-265eea220e95",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "TravelFit",
+            "dataType": "string",
+            "expression": "SWITCH(TRUE(), NOT ISBLANK(Products[max_ram_gb]) && Products[max_ram_gb] < 32, \"No match\", NOT ISBLANK(Products[weight_kg]) && Products[weight_kg] > 1.3, \"No match\", ISBLANK(Products[max_ram_gb]) || ISBLANK(Products[weight_kg]), \"Unresolved\", \"Candidate - verify SKU\")",
+            "lineageTag": "fec961f8-ea1d-4132-88f0-a813fd9f80a5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "bbb90a6a-be70-49cc-b0dc-948e97ac46ad",
+        "measures": [
+          {
+            "name": "Platform variants",
+            "expression": "COUNTROWS(Products)",
+            "formatString": "0",
+            "lineageTag": "0f5df954-2c03-4c8e-be50-de3918ad76a1"
+          },
+          {
+            "name": "Product families",
+            "expression": "COUNTROWS(SUMMARIZE(Products, Products[brand], Products[family]))",
+            "formatString": "0",
+            "lineageTag": "1a0ac7b1-cadb-4f35-a71f-4413026b2870"
+          },
+          {
+            "name": "Brands tracked",
+            "expression": "DISTINCTCOUNT(Products[brand])",
+            "formatString": "0",
+            "lineageTag": "df6ed7e3-b0fc-4dbc-ab20-b2a09383457d"
+          },
+          {
+            "name": "Evidence coverage %",
+            "expression": "AVERAGE(Products[evidence_coverage_pct])",
+            "formatString": "0",
+            "lineageTag": "192ae492-d552-4620-bb15-09efab5b4938"
+          },
+          {
+            "name": "Starting weight kg",
+            "expression": "MIN(Products[weight_kg])",
+            "formatString": "0.000",
+            "lineageTag": "3ca62099-9dc0-460f-854d-cdff63ace5da"
+          },
+          {
+            "name": "Max memory GB",
+            "expression": "MAX(Products[max_ram_gb])",
+            "formatString": "0",
+            "lineageTag": "3e446a84-6d78-4da2-8a8c-44f031009397"
+          },
+          {
+            "name": "Fleet candidates",
+            "expression": "CALCULATE(COUNTROWS(Products), Products[FleetFit] = \"Candidate - verify SKU\")",
+            "formatString": "0",
+            "lineageTag": "f292da01-0e16-4b68-bc90-30bbb04401f8"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Products",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"products.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Nulls = Table.ReplaceValue(Headers, \"\", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),",
+                "    Typed = Table.TransformColumnTypes(Nulls, {{\"id\", type text}, {\"brand\", type text}, {\"family\", type text}, {\"variant\", type text}, {\"segment\", type text}, {\"screen_in\", type number}, {\"max_ram_gb\", type number}, {\"ram_upgradeable\", type number}, {\"weight_kg\", type number}, {\"max_storage_gb\", type number}, {\"ethernet\", type number}, {\"battery_wh\", type number}, {\"notes\", type text}, {\"verified_on\", type text}, {\"evidence_coverage_pct\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sources",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "string",
+            "lineageTag": "a62f4ee6-499f-4bf8-a62a-c49b9f1cc175",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "title",
+            "dataType": "string",
+            "lineageTag": "4b039e4f-2758-4182-8400-9dfaa4f35b19",
+            "sourceColumn": "title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "url",
+            "dataCategory": "WebUrl",
+            "dataType": "string",
+            "lineageTag": "54570335-28e7-48ae-9d1b-34f8b1130010",
+            "sourceColumn": "url",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "publisher",
+            "dataType": "string",
+            "lineageTag": "07ddcb0b-a165-447f-9356-bbec5ae8658d",
+            "sourceColumn": "publisher",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "kind",
+            "dataType": "string",
+            "lineageTag": "9b3087b5-c7ee-4da6-be97-92e6107ae057",
+            "sourceColumn": "kind",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "summary",
+            "dataType": "string",
+            "lineageTag": "026ad5db-2c75-4cc0-ba51-af5cabc4758b",
+            "sourceColumn": "summary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "verified_on",
+            "dataType": "string",
+            "lineageTag": "8eaedc0c-8484-4437-a8a4-84560ead817d",
+            "sourceColumn": "verified_on",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a2975b60-60ee-48e2-ad35-e59d1e5bd6f6",
+        "partitions": [
+          {
+            "name": "Sources",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"sources.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Nulls = Table.ReplaceValue(Headers, \"\", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),",
+                "    Typed = Table.TransformColumnTypes(Nulls, {{\"id\", type text}, {\"title\", type text}, {\"url\", type text}, {\"publisher\", type text}, {\"kind\", type text}, {\"summary\", type text}, {\"verified_on\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Prices",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "double",
+            "lineageTag": "912795b2-fc1e-4d3c-ba6d-623c5b073171",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_id",
+            "dataType": "string",
+            "lineageTag": "a03423ae-49a6-476f-ae54-2e350ef075e2",
+            "sourceColumn": "product_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "amount",
+            "dataType": "double",
+            "lineageTag": "0d06ce73-90e5-4f67-a942-101d61f80c12",
+            "sourceColumn": "amount",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "currency",
+            "dataType": "string",
+            "lineageTag": "b845bdb1-32cd-4af7-a610-82c2570da9bc",
+            "sourceColumn": "currency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "market",
+            "dataType": "string",
+            "lineageTag": "4dda160a-e85b-444c-b399-1307c3d76101",
+            "sourceColumn": "market",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "kind",
+            "dataType": "string",
+            "lineageTag": "8bc4b84b-a13d-49ae-8cdd-56d61de323c7",
+            "sourceColumn": "kind",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "observed_on",
+            "dataType": "string",
+            "lineageTag": "1a1c666a-9ef4-40b9-828e-0f2a79fbd05c",
+            "sourceColumn": "observed_on",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "configuration",
+            "dataType": "string",
+            "lineageTag": "86850e47-a758-4502-b0a6-287e0b081ba3",
+            "sourceColumn": "configuration",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tax_basis",
+            "dataType": "string",
+            "lineageTag": "7d83c6df-e6cf-43a4-ab22-e386df6c2987",
+            "sourceColumn": "tax_basis",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "lineageTag": "24fbc062-17b3-4228-bd25-1a8c8993364b",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "629e3db9-00a8-4a56-ae31-5dd25f7db6cc",
+        "partitions": [
+          {
+            "name": "Prices",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"prices.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Nulls = Table.ReplaceValue(Headers, \"\", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),",
+                "    Typed = Table.TransformColumnTypes(Nulls, {{\"id\", type number}, {\"product_id\", type text}, {\"amount\", type number}, {\"currency\", type text}, {\"market\", type text}, {\"kind\", type text}, {\"observed_on\", type text}, {\"configuration\", type text}, {\"tax_basis\", type text}, {\"source_id\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Launches",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "double",
+            "lineageTag": "143d9049-0cea-4579-9d2b-4c41147f32db",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_id",
+            "dataType": "string",
+            "lineageTag": "7fde9893-4e2d-4b90-9244-8127379a12b1",
+            "sourceColumn": "product_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "announced_on",
+            "dataType": "string",
+            "lineageTag": "e2fb5d76-faa7-4d50-b03b-62536f1546d1",
+            "sourceColumn": "announced_on",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "title",
+            "dataType": "string",
+            "lineageTag": "be57c27c-1c69-4312-b396-349c4a741a80",
+            "sourceColumn": "title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "summary",
+            "dataType": "string",
+            "lineageTag": "3d00ef06-bf50-463c-a05a-c0cc676cccf3",
+            "sourceColumn": "summary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "lineageTag": "12271e89-d79e-44eb-b72e-6d1b6eae1674",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f3e85453-a51f-4804-9a74-7e1b2c4d5c30",
+        "partitions": [
+          {
+            "name": "Launches",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"launches.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Nulls = Table.ReplaceValue(Headers, \"\", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),",
+                "    Typed = Table.TransformColumnTypes(Nulls, {{\"id\", type number}, {\"product_id\", type text}, {\"announced_on\", type text}, {\"title\", type text}, {\"summary\", type text}, {\"source_id\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Changes",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "double",
+            "lineageTag": "3a513fcf-be88-4b3e-9b82-3ccc293e0f07",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "product_id",
+            "dataType": "string",
+            "lineageTag": "99df753a-f8aa-4a8e-92d0-80e477be2664",
+            "sourceColumn": "product_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "changed_at",
+            "dataType": "string",
+            "lineageTag": "06c6afac-ab20-469d-84c7-75a22b2311ea",
+            "sourceColumn": "changed_at",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "field",
+            "dataType": "string",
+            "lineageTag": "b21121ec-4c1c-46c5-bb4d-6b0d605aaa0a",
+            "sourceColumn": "field",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "old_value",
+            "dataType": "string",
+            "lineageTag": "dd92d25b-cd50-4a01-bfab-b1232054f630",
+            "sourceColumn": "old_value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "new_value",
+            "dataType": "string",
+            "lineageTag": "621baa5a-7a96-4dbe-ba48-07b4045805de",
+            "sourceColumn": "new_value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "lineageTag": "4826e2b9-afdc-4342-b024-5e43f4c8df4f",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2eefb203-df35-4a82-807c-8e3a47817cd9",
+        "partitions": [
+          {
+            "name": "Changes",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"changes.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Nulls = Table.ReplaceValue(Headers, \"\", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),",
+                "    Typed = Table.TransformColumnTypes(Nulls, {{\"id\", type number}, {\"product_id\", type text}, {\"changed_at\", type text}, {\"field\", type text}, {\"old_value\", type text}, {\"new_value\", type text}, {\"source_id\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "SourceChecks",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "double",
+            "lineageTag": "466b7c65-f44e-4009-be38-d8c92c6d53ef",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "lineageTag": "4f7918f9-b10d-41e2-a65f-1bfe17fe3521",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "checked_at",
+            "dataType": "string",
+            "lineageTag": "3c8de144-d392-4426-aad0-eccf1968b55e",
+            "sourceColumn": "checked_at",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "lineageTag": "70a7022e-bf34-46e6-bd49-435b6e144622",
+            "sourceColumn": "status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "content_hash",
+            "dataType": "string",
+            "lineageTag": "8eef7bdc-37c6-44a4-b9a7-c3a618e866f0",
+            "sourceColumn": "content_hash",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "detail",
+            "dataType": "string",
+            "lineageTag": "272e2360-10cb-491a-ac4e-b492d11f1247",
+            "sourceColumn": "detail",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "51096f03-1f2f-46ee-be0b-f2abb151827f",
+        "partitions": [
+          {
+            "name": "SourceChecks",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"source_checks.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Nulls = Table.ReplaceValue(Headers, \"\", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),",
+                "    Typed = Table.TransformColumnTypes(Nulls, {{\"id\", type number}, {\"source_id\", type text}, {\"checked_at\", type text}, {\"status\", type text}, {\"content_hash\", type text}, {\"detail\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Brands",
+        "columns": [
+          {
+            "name": "brand",
+            "dataType": "string",
+            "lineageTag": "340b9499-3f3c-46c7-8dc9-971946581e3c",
+            "sourceColumn": "brand",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "families",
+            "dataType": "double",
+            "lineageTag": "c9c6d373-f50c-4647-be55-8a990380b511",
+            "sourceColumn": "families",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "platform_variants",
+            "dataType": "double",
+            "lineageTag": "98655de9-f029-4875-b68e-35f05d96214d",
+            "sourceColumn": "platform_variants",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "evidence_coverage_pct",
+            "dataType": "double",
+            "lineageTag": "41d5f605-6e00-47f7-894f-57fdf6649032",
+            "sourceColumn": "evidence_coverage_pct",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "82177612-d49f-4ee5-9cd9-b065ba5c10cc",
+        "partitions": [
+          {
+            "name": "Brands",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"brands.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Nulls = Table.ReplaceValue(Headers, \"\", null, Replacer.ReplaceValue, Table.ColumnNames(Headers)),",
+                "    Typed = Table.TransformColumnTypes(Nulls, {{\"brand\", type text}, {\"families\", type number}, {\"platform_variants\", type number}, {\"evidence_coverage_pct\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
